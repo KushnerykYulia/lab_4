@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/Lab4/src</OriginalElement>
+  <nodes>
+    <node x="-428.45652173913044" y="37.0">Point</node>
+    <node x="-174.5" y="-150.5">Composition</node>
+    <node x="-329.5" y="-151.0">Primitive</node>
+    <node x="-263.25" y="87.0">PointToLineAdapter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Point" target="Primitive" relationship="REALIZATION">
+      <point x="0.0" y="-93.0" />
+      <point x="-367.95652173913044" y="-1.0" />
+      <point x="-299.25" y="-1.0" />
+      <point x="-30.25" y="56.0" />
+    </edge>
+    <edge source="PointToLineAdapter" target="Composition" relationship="REALIZATION">
+      <point x="64.75" y="-68.0" />
+      <point x="0.0" y="55.5" />
+    </edge>
+    <edge source="PointToLineAdapter" target="Primitive" relationship="TO_ONE">
+      <point x="-64.75" y="-68.0" />
+      <point x="-198.5" y="5.0" />
+      <point x="-238.75" y="5.0" />
+      <point x="30.25" y="56.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.1722319859402461" showDependencies="true" x="-136.4999999999999" y="133.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
