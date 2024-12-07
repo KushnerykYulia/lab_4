@@ -1,5 +1,5 @@
 /**
- * <h1 color="green">Клас PointToLineAdapter</h1>
+ * <h1>Клас PointToLineAdapter</h1>
  * <p>
  * Адаптер, який дозволяє використовувати об'єкти типу {@link Point} для
  * реалізації інтерфейсу {@link Composition} і малювання ліній.
